@@ -1,0 +1,1340 @@
+{
+  "currency_types": [
+    {
+      "name": "Indian Rupees",
+      "value": "INR",
+      "symbol": "₹",
+      "delimiter": ".",
+      "separator": ",",
+      "is_symbol_prefix": true
+    },
+    {
+      "name": "Singapore Dollar",
+      "value": "SGD",
+      "symbol": "S$",
+      "delimiter": ".",
+      "separator": ",",
+      "is_symbol_prefix": true
+    },
+    {
+      "name": "Swedish Krona",
+      "value": "SEK",
+      "symbol": "kr",
+      "delimiter": ",",
+      "separator": " ",
+      "is_symbol_prefix": false
+    },
+    {
+      "name": "Swiss Franc",
+      "value": "CHF",
+      "symbol": "CHF",
+      "delimiter": ",",
+      "separator": ".",
+      "is_symbol_prefix": false
+    },
+    {
+      "value": "AED",
+      "name": "United Arab Emirates Dirham",
+      "symbol": "د.إ",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "AFN",
+      "name": "Afghan Afghani",
+      "symbol": "؋",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "ALL",
+      "name": "Albanian Lek",
+      "symbol": "L",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "AMD",
+      "name": "Armenian Dram",
+      "symbol": "դր.",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "ANG",
+      "name": "Netherlands Antillean Gulden",
+      "symbol": "ƒ",
+      "is_symbol_prefix": true,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "AOA",
+      "name": "Angolan Kwanza",
+      "symbol": "Kz",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "ARS",
+      "name": "Argentine Peso",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "AUD",
+      "name": "Australian Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "AWG",
+      "name": "Aruban Florin",
+      "symbol": "ƒ",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "AZN",
+      "name": "Azerbaijani Manat",
+      "symbol": "₼",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "BAM",
+      "name": "Bosnia and Herzegovina Convertible Mark",
+      "symbol": "КМ",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "BBD",
+      "name": "Barbadian Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "BDT",
+      "name": "Bangladeshi Taka",
+      "symbol": "৳",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "BGN",
+      "name": "Bulgarian Lev",
+      "symbol": "лв.",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "BHD",
+      "name": "Bahraini Dinar",
+      "symbol": "ب.د",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "BIF",
+      "name": "Burundian Franc",
+      "symbol": "Fr",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "BMD",
+      "name": "Bermudian Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "BND",
+      "name": "Brunei Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "BOB",
+      "name": "Bolivian Boliviano",
+      "symbol": "Bs.",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "BRL",
+      "name": "Brazilian Real",
+      "symbol": "R$",
+      "is_symbol_prefix": true,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "BSD",
+      "name": "Bahamian Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "BTN",
+      "name": "Bhutanese Ngultrum",
+      "symbol": "Nu.",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "BWP",
+      "name": "Botswana Pula",
+      "symbol": "P",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "BYN",
+      "name": "Belarusian Ruble",
+      "symbol": "Br",
+      "is_symbol_prefix": false,
+      "delimiter": ",",
+      "separator": " "
+    },
+    {
+      "value": "BYR",
+      "name": "Belarusian Ruble",
+      "symbol": "Br",
+      "is_symbol_prefix": false,
+      "delimiter": ",",
+      "separator": " "
+    },
+    {
+      "value": "BZD",
+      "name": "Belize Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "CAD",
+      "name": "Canadian Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "CDF",
+      "name": "Congolese Franc",
+      "symbol": "Fr",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "CLF",
+      "name": "Unidad de Fomento",
+      "symbol": "UF",
+      "is_symbol_prefix": true,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "CLP",
+      "name": "Chilean Peso",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "CNY",
+      "name": "Chinese Renminbi Yuan",
+      "symbol": "¥",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "COP",
+      "name": "Colombian Peso",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "CRC",
+      "name": "Costa Rican Colón",
+      "symbol": "₡",
+      "is_symbol_prefix": true,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "CUC",
+      "name": "Cuban Convertible Peso",
+      "symbol": "$",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "CUP",
+      "name": "Cuban Peso",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "CVE",
+      "name": "Cape Verdean Escudo",
+      "symbol": "$",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "CZK",
+      "name": "Czech Koruna",
+      "symbol": "Kč",
+      "is_symbol_prefix": false,
+      "delimiter": ",",
+      "separator": " "
+    },
+    {
+      "value": "DJF",
+      "name": "Djiboutian Franc",
+      "symbol": "Fdj",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "DKK",
+      "name": "Danish Krone",
+      "symbol": "kr.",
+      "is_symbol_prefix": false,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "DOP",
+      "name": "Dominican Peso",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "DZD",
+      "name": "Algerian Dinar",
+      "symbol": "د.ج",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "EGP",
+      "name": "Egyptian Pound",
+      "symbol": "ج.م",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "ERN",
+      "name": "Eritrean Nakfa",
+      "symbol": "Nfk",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "ETB",
+      "name": "Ethiopian Birr",
+      "symbol": "Br",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "EUR",
+      "name": "Euro",
+      "symbol": "€",
+      "is_symbol_prefix": true,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "FJD",
+      "name": "Fijian Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "FKP",
+      "name": "Falkland Pound",
+      "symbol": "£",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "GBP",
+      "name": "British Pound",
+      "symbol": "£",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "GEL",
+      "name": "Georgian Lari",
+      "symbol": "ლ",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "GHS",
+      "name": "Ghanaian Cedi",
+      "symbol": "₵",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "GIP",
+      "name": "Gibraltar Pound",
+      "symbol": "£",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "GMD",
+      "name": "Gambian Dalasi",
+      "symbol": "D",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "GNF",
+      "name": "Guinean Franc",
+      "symbol": "Fr",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "GTQ",
+      "name": "Guatemalan Quetzal",
+      "symbol": "Q",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "GYD",
+      "name": "Guyanese Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "HKD",
+      "name": "Hong Kong Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "HNL",
+      "name": "Honduran Lempira",
+      "symbol": "L",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "HRK",
+      "name": "Croatian Kuna",
+      "symbol": "kn",
+      "is_symbol_prefix": false,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "HTG",
+      "name": "Haitian Gourde",
+      "symbol": "G",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "HUF",
+      "name": "Hungarian Forint",
+      "symbol": "Ft",
+      "is_symbol_prefix": false,
+      "delimiter": ",",
+      "separator": " "
+    },
+    {
+      "value": "IDR",
+      "name": "Indonesian Rupiah",
+      "symbol": "Rp",
+      "is_symbol_prefix": true,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "ILS",
+      "name": "Israeli New Sheqel",
+      "symbol": "₪",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "IQD",
+      "name": "Iraqi Dinar",
+      "symbol": "ع.د",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "IRR",
+      "name": "Iranian Rial",
+      "symbol": "﷼",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "ISK",
+      "name": "Icelandic Króna",
+      "symbol": "kr",
+      "is_symbol_prefix": true,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "JMD",
+      "name": "Jamaican Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "JOD",
+      "name": "Jordanian Dinar",
+      "symbol": "د.ا",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "JPY",
+      "name": "Japanese Yen",
+      "symbol": "¥",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "KES",
+      "name": "Kenyan Shilling",
+      "symbol": "KSh",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "KGS",
+      "name": "Kyrgyzstani Som",
+      "symbol": "som",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "KHR",
+      "name": "Cambodian Riel",
+      "symbol": "៛",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "KMF",
+      "name": "Comorian Franc",
+      "symbol": "Fr",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "KPW",
+      "name": "North Korean Won",
+      "symbol": "₩",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "KRW",
+      "name": "South Korean Won",
+      "symbol": "₩",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "KWD",
+      "name": "Kuwaiti Dinar",
+      "symbol": "د.ك",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "KYD",
+      "name": "Cayman Islands Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "KZT",
+      "name": "Kazakhstani Tenge",
+      "symbol": "〒",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "LAK",
+      "name": "Lao Kip",
+      "symbol": "₭",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "LBP",
+      "name": "Lebanese Pound",
+      "symbol": "ل.ل",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "LKR",
+      "name": "Sri Lankan Rupee",
+      "symbol": "₨",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "LRD",
+      "name": "Liberian Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "LSL",
+      "name": "Lesotho Loti",
+      "symbol": "L",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "LTL",
+      "name": "Lithuanian Litas",
+      "symbol": "Lt",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "LVL",
+      "name": "Latvian Lats",
+      "symbol": "Ls",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "LYD",
+      "name": "Libyan Dinar",
+      "symbol": "ل.د",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "MAD",
+      "name": "Moroccan Dirham",
+      "symbol": "د.م.",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "MDL",
+      "name": "Moldovan Leu",
+      "symbol": "L",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "MGA",
+      "name": "Malagasy Ariary",
+      "symbol": "Ar",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "MKD",
+      "name": "Macedonian Denar",
+      "symbol": "ден",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "MMK",
+      "name": "Myanmar Kyat",
+      "symbol": "K",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "MNT",
+      "name": "Mongolian Tögrög",
+      "symbol": "₮",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "MOP",
+      "name": "Macanese Pataca",
+      "symbol": "P",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "MRO",
+      "name": "Mauritanian Ouguiya",
+      "symbol": "UM",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "MUR",
+      "name": "Mauritian Rupee",
+      "symbol": "₨",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "MVR",
+      "name": "Maldivian Rufiyaa",
+      "symbol": "MVR",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "MWK",
+      "name": "Malawian Kwacha",
+      "symbol": "MK",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "MXN",
+      "name": "Mexican Peso",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "MYR",
+      "name": "Malaysian Ringgit",
+      "symbol": "RM",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "MZN",
+      "name": "Mozambican Metical",
+      "symbol": "MTn",
+      "is_symbol_prefix": true,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "NAD",
+      "name": "Namibian Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "NGN",
+      "name": "Nigerian Naira",
+      "symbol": "₦",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "NIO",
+      "name": "Nicaraguan Córdoba",
+      "symbol": "C$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "NOK",
+      "name": "Norwegian Krone",
+      "symbol": "kr",
+      "is_symbol_prefix": false,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "NPR",
+      "name": "Nepalese Rupee",
+      "symbol": "₨",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "NZD",
+      "name": "New Zealand Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "OMR",
+      "name": "Omani Rial",
+      "symbol": "ر.ع.",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "PAB",
+      "name": "Panamanian Balboa",
+      "symbol": "B/.",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "PEN",
+      "name": "Peruvian Sol",
+      "symbol": "S/.",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "PGK",
+      "name": "Papua New Guinean Kina",
+      "symbol": "K",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "PHP",
+      "name": "Philippine Peso",
+      "symbol": "₱",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "PKR",
+      "name": "Pakistani Rupee",
+      "symbol": "₨",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "PLN",
+      "name": "Polish Złoty",
+      "symbol": "zł",
+      "is_symbol_prefix": false,
+      "delimiter": ",",
+      "separator": " "
+    },
+    {
+      "value": "PYG",
+      "name": "Paraguayan Guaraní",
+      "symbol": "₲",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "QAR",
+      "name": "Qatari Riyal",
+      "symbol": "ر.ق",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "RON",
+      "name": "Romanian Leu",
+      "symbol": "Lei",
+      "is_symbol_prefix": false,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "RSD",
+      "name": "Serbian Dinar",
+      "symbol": "РСД",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "RUB",
+      "name": "Russian Ruble",
+      "symbol": "₽",
+      "is_symbol_prefix": false,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "RWF",
+      "name": "Rwandan Franc",
+      "symbol": "FRw",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "SAR",
+      "name": "Saudi Riyal",
+      "symbol": "ر.س",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "SBD",
+      "name": "Solomon Islands Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "SCR",
+      "name": "Seychellois Rupee",
+      "symbol": "₨",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "SDG",
+      "name": "Sudanese Pound",
+      "symbol": "£",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "SHP",
+      "name": "Saint Helenian Pound",
+      "symbol": "£",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "SKK",
+      "name": "Slovak Koruna",
+      "symbol": "Sk",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "SLL",
+      "name": "Sierra Leonean Leone",
+      "symbol": "Le",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "SOS",
+      "name": "Somali Shilling",
+      "symbol": "Sh",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "SRD",
+      "name": "Surinamese Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "SSP",
+      "name": "South Sudanese Pound",
+      "symbol": "£",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "STD",
+      "name": "São Tomé and Príncipe Dobra",
+      "symbol": "Db",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "SVC",
+      "name": "Salvadoran Colón",
+      "symbol": "₡",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "SYP",
+      "name": "Syrian Pound",
+      "symbol": "£S",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "SZL",
+      "name": "Swazi Lilangeni",
+      "symbol": "E",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "THB",
+      "name": "Thai Baht",
+      "symbol": "฿",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "TJS",
+      "name": "Tajikistani Somoni",
+      "symbol": "ЅМ",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "TMT",
+      "name": "Turkmenistani Manat",
+      "symbol": "T",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "TND",
+      "name": "Tunisian Dinar",
+      "symbol": "د.ت",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "TOP",
+      "name": "Tongan Paʻanga",
+      "symbol": "T$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "TRY",
+      "name": "Turkish Lira",
+      "symbol": "₺",
+      "is_symbol_prefix": true,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "TTD",
+      "name": "Trinidad and Tobago Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "TWD",
+      "name": "New Taiwan Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "TZS",
+      "name": "Tanzanian Shilling",
+      "symbol": "Sh",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "UAH",
+      "name": "Ukrainian Hryvnia",
+      "symbol": "₴",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "UGX",
+      "name": "Ugandan Shilling",
+      "symbol": "USh",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "USD",
+      "name": "United States Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "UYU",
+      "name": "Uruguayan Peso",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "UZS",
+      "name": "Uzbekistan Som",
+      "symbol": "",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "VEF",
+      "name": "Venezuelan Bolívar",
+      "symbol": "Bs",
+      "is_symbol_prefix": true,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "VND",
+      "name": "Vietnamese Đồng",
+      "symbol": "₫",
+      "is_symbol_prefix": false,
+      "delimiter": ",",
+      "separator": "."
+    },
+    {
+      "value": "VUV",
+      "name": "Vanuatu Vatu",
+      "symbol": "Vt",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "WST",
+      "name": "Samoan Tala",
+      "symbol": "T",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "XAF",
+      "name": "Central African Cfa Franc",
+      "symbol": "Fr",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "XAG",
+      "name": "Silver (Troy Ounce)",
+      "symbol": "oz t",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "XAU",
+      "name": "Gold (Troy Ounce)",
+      "symbol": "oz t",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "XCD",
+      "name": "East Caribbean Dollar",
+      "symbol": "$",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "XDR",
+      "name": "Special Drawing Rights",
+      "symbol": "SDR",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "XOF",
+      "name": "West African Cfa Franc",
+      "symbol": "Fr",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "XPD",
+      "name": "Palladium",
+      "symbol": "oz t",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "XPF",
+      "name": "Cfp Franc",
+      "symbol": "Fr",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "XPT",
+      "name": "Platinum",
+      "symbol": "oz t",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "YER",
+      "name": "Yemeni Rial",
+      "symbol": "﷼",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "ZAR",
+      "name": "South African Rand",
+      "symbol": "R",
+      "is_symbol_prefix": true,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "ZMK",
+      "name": "Zambian Kwacha",
+      "symbol": "ZK",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    },
+    {
+      "value": "ZMW",
+      "name": "Zambian Kwacha",
+      "symbol": "ZK",
+      "is_symbol_prefix": false,
+      "delimiter": ".",
+      "separator": ","
+    }
+  ]
+}
